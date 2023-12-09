@@ -3,7 +3,6 @@ import java.util.ArrayList;
 
 class Move {
     private List<Box> boxes;
-
     public Move(int numberOfBoxes) {
         boxes = new ArrayList<>();
     }
@@ -37,7 +36,6 @@ class Move {
          * argument 1: number of items (simple items/objects or box) that the box can hold
          * argument 2: box number
          */
-
         // box 1 contains scissors
         Box box1 = new Box(1, 1);
         box1.addItem(new SingleObject("scissors"));
